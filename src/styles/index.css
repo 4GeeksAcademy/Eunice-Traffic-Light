@@ -1,12 +1,92 @@
+/* Light Holder Properties*/
 
-/* 
+.lightHolder {
+    background-color: black;
+    height: 6rem;
+    width: 2rem;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+/* Trafic Ligths Container Properties */
+
+.trafficLightConatiner {
+    background-color: black;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+/* Light Properties */
+
+.redLight {
+    color: #a52019;
+    font-size: 7rem;
+}
+
+.yellowLight {
+    color: #e5be01;
+    font-size: 7rem;
+    margin: 1rem;
+}
+
+
+.greenLight {
+    color: #317f43;
+    font-size: 7rem;
+}
+
+/* Selected Light Properties */
+
+.selected {
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+    border-radius: 55%;
+}
+
+/* Buttons Properties */
+
+.buttonsContainer {
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.startButton {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: #00ABA9 2px solid;
+    color: #00ABA9;
+    background-color: white;
+}
+
+.stopButton {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid #C85454;
+    color: #C85454;
+    background-color: white;
+
+}
+
+.addColorButton {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid #FFC900;
+    color: #FFC900;
+    background-color: white;
+
+}
