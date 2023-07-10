@@ -19,7 +19,7 @@
     text-align: center;
     width: 12rem;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 
@@ -27,19 +27,25 @@
 
 .redLight {
     color: #a52019;
-    font-size: 7rem;
+    font-size: 6rem;
 }
 
 .yellowLight {
     color: #e5be01;
-    font-size: 7rem;
+    font-size: 6rem;
     margin: 1rem;
 }
 
 
 .greenLight {
     color: #317f43;
-    font-size: 7rem;
+    font-size: 6rem;
+}
+
+.purpleLight {
+    color: #bb01e5;
+    font-size: 6rem;
+    margin-top: 1rem;
 }
 
 /* Selected Light Properties */
@@ -89,4 +95,19 @@
     color: #FFC900;
     background-color: white;
 
+}
+
+.startButton:hover {
+    background-color: #00ABA9;
+    color: white;
+}
+
+.stopButton:hover {
+    background-color: #C85454;
+    color: white;
+}
+
+.addColorButton:hover {
+    background-color: #FFC900;
+    color: white;
 }
